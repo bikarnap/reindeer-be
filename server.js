@@ -107,7 +107,7 @@ app.get('/', getWelcomeMessage);
 app.get('/api/menus', getAllMenus);
 
 // POST
-app.post('/departure', postDepartureInfo);
+app.post('/api/departure', postDepartureInfo);
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
