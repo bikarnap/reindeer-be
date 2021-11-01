@@ -6,3 +6,6 @@
 ### In development mode - npm run dev
 ### In production mode - npm start
 __The app runs on PORT 8000 or the PORT defined in process.env.PORT__ 
+
+## API Endpoints
+### /api/menus - to get food menu information in json
