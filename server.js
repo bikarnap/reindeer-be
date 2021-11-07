@@ -161,6 +161,14 @@ app.delete('/api/menus/:id', (req, res) => {
   res.status(202).end();
 });
 
+const unknownEndpoint = (req, res, next) => {
+  res.status(404).send({
+    error: 'unknown endpoint'
+  })
+};
+
+app.use(unknownEndpoint);
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 })
