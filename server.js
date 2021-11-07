@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express(); 
 
+app.use(express.json());
+
 const PORT = process.env.PORT || 8000;
 
 let foodData = [
@@ -119,6 +121,17 @@ app.get('/api/menus/:id', (req, res) => {
 });
 
 // POST
+app.post('/api/menus', (req, res) => {
+  const maxId = foodData.length > 0
+    ? Math.max(...foodData.map(food => Number(food.id)))
+    : 0; 
+  
+  const menu = req.body; 
+  menu.id = String(maxId + 1);
+  foodData = foodData.concat(menu);
+  console.log(menu);
+  res.json(menu);
+});
 app.post('/api/departure', postDepartureInfo);
 
 // DELETE
