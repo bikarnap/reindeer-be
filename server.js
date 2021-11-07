@@ -121,13 +121,24 @@ app.get('/api/menus/:id', (req, res) => {
 });
 
 // POST
-app.post('/api/menus', (req, res) => {
+const generateId = () => {
   const maxId = foodData.length > 0
     ? Math.max(...foodData.map(food => Number(food.id)))
     : 0; 
-  
-  const menu = req.body; 
-  menu.id = String(maxId + 1);
+  return maxId + 1;
+};
+app.post('/api/menus', (req, res) => {
+  const body = req.body; 
+  if (!body.item) {
+    return res.status(400).json({
+      error: 'Item name missing'
+    })
+  }
+
+  const menu = {
+    id: String(generateId()),
+    item: body.item,
+  }
   foodData = foodData.concat(menu);
   console.log(menu);
   res.json(menu);
