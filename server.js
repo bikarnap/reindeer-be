@@ -109,10 +109,13 @@ app.get('/api/menus', getAllMenus);
 app.get('/api/menus/:id', (req, res) => {
   const id = Number(req.params.id);
   const menu = foodData.find(food => Number(food.id) === id);
-  if (menu)
+  if (menu) {
     res.json(menu);
-  else
+  }
+  else {
+    res.statusMessage = `Id - ${id} does not exist`;
     res.status(404).end();
+  }
 });
 
 // POST
