@@ -106,6 +106,15 @@ app.get('/', getWelcomeMessage);
 
 app.get('/api/menus', getAllMenus);
 
+app.get('/api/menus/:id', (req, res) => {
+  const id = Number(req.params.id);
+  const menu = foodData.find(food => Number(food.id) === id);
+  if (menu)
+    res.json(menu);
+  else
+    res.status(404).end();
+});
+
 // POST
 app.post('/api/departure', postDepartureInfo);
 
