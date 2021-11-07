@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 8000;
 
-const foodData = [
+let foodData = [
     {
       id: "1",
       item: "item01",
@@ -120,6 +120,13 @@ app.get('/api/menus/:id', (req, res) => {
 
 // POST
 app.post('/api/departure', postDepartureInfo);
+
+// DELETE
+app.delete('/api/menus/:id', (req, res) => {
+  const id = Number(req.params.id);
+  foodData = foodData.filter(food => Number(food.id) !== id) 
+  res.status(202).end();
+});
 
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
