@@ -1,4 +1,5 @@
 const menuRouter = require('./controllers/menus');
+const citiesRouter = require('./controllers/cities');
 const express = require('express');
 const cors = require('cors');
 const config = require('./utils/config');
@@ -9,6 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(middleware.requestLogger);
 app.use('/api/menus', menuRouter);
+app.use('/api/cities', citiesRouter);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
 
