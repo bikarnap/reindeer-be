@@ -1,4 +1,4 @@
-const menuRouter = require('.controllers/menus');
+const menuRouter = require('./controllers/menus');
 const express = require('express');
 const cors = require('cors');
 const config = require('./utils/config');
