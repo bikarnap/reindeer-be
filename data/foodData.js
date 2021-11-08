@@ -6,19 +6,17 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic1',
+    image: './images/1.jpg',
     foodChoices: ['Non-Veg'],
   },
   {
     id: '2',
     item: 'item02',
     ingredient: 'garlic,Lamb,salad',
-
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic2',
-
+    image: './images/2.jpg',
     foodChoices: ['Non-Veg'],
   },
   {
@@ -28,7 +26,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic3',
+    image: './images/3.jpg',
     foodChoices: ['Veg'],
   },
   {
@@ -38,7 +36,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic4',
+    image: './images/4.jpg',
     foodChoices: ['Lacto Veg'],
   },
   {
@@ -48,7 +46,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic5',
+    image: './images/5.jpg',
     foodChoices: ['Non-Veg'],
   },
   {
@@ -58,7 +56,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: 'Pic6',
+    image: './images/6.jpg',
     foodChoices: ['Lactose Free'],
   },
   {
@@ -68,7 +66,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: '',
+    image: './images/1.jpg',
     foodChoices: ['Gluton free'],
   },
   {
@@ -78,7 +76,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: '',
+    image: './images/2.jpg',
     foodChoices: ['Gluton free'],
   }
 ];
