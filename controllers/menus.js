@@ -1,5 +1,5 @@
 const menuRouter = require('express').Router();
-const foodData = require('../data/foodData.js');
+let foodData = require('../data/foodData.js');
 
 /* const getWelcomeMessage = (req, res) => {
   res.send('<em>Reindeer food service for train passengers</em>');
