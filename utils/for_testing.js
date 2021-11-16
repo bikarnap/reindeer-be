@@ -5,8 +5,11 @@ const palindrome = (string) => {
 };
 
 const average = (array) => {
-  return array
-    .reduce((sum, item) => sum + item, 0) / array.length;
+  const reducer = (sum, item) => sum + item;
+  return array.length > 0
+    ? array
+      .reduce((sum, item) => sum + item, 0) / array.length
+    : 0;
 };
 
 module.exports = {
