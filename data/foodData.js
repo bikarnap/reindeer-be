@@ -2,7 +2,7 @@ let foodData = [
   {
     id: '1',
     item: 'item01',
-    ingredient: 'potatos,cocumber',
+    ingredient: 'potato,cucumber',
     available: true,
     country: 'Finland',
     discount: 'FI',
