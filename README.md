@@ -9,3 +9,7 @@ __The app runs on PORT 8000 or the PORT defined in process.env.PORT__
 
 ## API Endpoints
 ### /api/menus - to get food menu information in json
+
+### /api/cities - to get the cities information in json format
+
+### /api/foodchoices - to get food choices (options)
