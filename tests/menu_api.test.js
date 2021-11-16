@@ -14,3 +14,8 @@ test('there are 8 menu items', async () => {
   const response = await api.get('/api/menus');
   expect(response.body).toHaveLength(8);
 });
+
+test('the first menu item is item01', async () => {
+  const response = await api.get('/api/menus');
+  expect(response.body[0].item).toBe('item01');
+});
