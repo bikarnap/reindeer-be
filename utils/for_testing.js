@@ -1,7 +1,7 @@
 const palindrome = (string) => {
   return string.split('')
     .reverse()
-    .join();
+    .join('');
 };
 
 const average = (array) => {

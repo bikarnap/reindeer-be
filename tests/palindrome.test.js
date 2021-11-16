@@ -1,7 +1,7 @@
 const palindrome = require('../utils/for_testing').palindrome;
 
 test('palindrome of "a"', () => {
-  expect(palindrome('a').toBe('a'));
+  expect(palindrome('a')).toBe('a');
 });
 
 test('palindrome of "reindeer"', () => {
