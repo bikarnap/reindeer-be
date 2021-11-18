@@ -14,4 +14,4 @@ __The app runs on PORT 8000 or the PORT defined in process.env.PORT__
 
 ### /api/foodchoices - to get food choices (options)
 
-### Heroku server - https://reindeer-api-v1.herokuapp.com/<endpoint>
+### Heroku server - https://reindeer-api-v1.herokuapp.com/ <endpoint>
