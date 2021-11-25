@@ -6,7 +6,7 @@ let foodData = [
     available: true,
     country: 'Finland',
     discount: 'FI',
-    image: './images/1.jpg',
+    image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/1.jpg',
     foodChoices: ['Non-Veg'],
   },
   {
