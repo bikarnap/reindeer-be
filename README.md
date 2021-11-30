@@ -18,4 +18,6 @@ __The app runs on PORT 8000 or the PORT defined in process.env.PORT__
 
 ### /api/menus - to post menus
 
+### /api/trainmodels - to get all the available train models
+
 ### Heroku server - https://reindeer-api-v1.herokuapp.com/ <endpoint>
