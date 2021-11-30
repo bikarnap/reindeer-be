@@ -5,3 +5,5 @@ const trainModels = require('../data/trainModels');
 modelsRouter.get('/', (req, res) => {
   res.json(trainModels);
 });
+
+module.exports = modelsRouter;
