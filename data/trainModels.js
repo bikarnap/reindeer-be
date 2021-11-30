@@ -12,3 +12,5 @@ trainModels = [
     model: 'Commuter train',
   }
 ];
+
+module.exports = trainModels;
