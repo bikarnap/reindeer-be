@@ -1,8 +1,10 @@
 const supertest = require('supertest');
-const api = require('../app');
+const app = require('../app');
+
+const api = supertest(app);
 
 test('Train models are returned as json', async () => {
-  api.get('/api/trainmodels')
+  await api.get('/api/trainmodels')
     .expect(200)
     .expect('Content-type', /application\/json/);
 });
