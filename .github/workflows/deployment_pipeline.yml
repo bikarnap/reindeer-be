@@ -1,19 +1,17 @@
-name: Deployment Pipeline
+name: Deploy
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
-  simple_deployment_pipeline:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          node-version: '14.x'
-      - name: npm install
-        run: npm install
-      - name: start
-        run: npm start
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "reindeer-api-v1" #Must be unique in Heroku
+          heroku_email: "bikarnap@gmail.com"
