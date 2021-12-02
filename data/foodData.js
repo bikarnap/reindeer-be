@@ -78,6 +78,16 @@ let foodData = [
     discount: 'FI',
     image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
     foodChoices: ['Gluton free'],
+  },
+  {
+    id: '9',
+    item: 'item09',
+    ingredient: 'garlic, salad, Chicken, Chilli',
+    available: true,
+    country: 'Finland',
+    discount: 'FI',
+    image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+    foodChoices: ['Gluton free'],
   }
 ];
 
