@@ -1,12 +1,13 @@
 const menuRouter = require('express').Router();
-let foodData = require('../data/foodData.js');
+// let foodData = require('../data/foodData.js');
+let alldata = require('../data/menus.js');
 
 /* const getWelcomeMessage = (req, res) => {
   res.send('<em>Reindeer food service for train passengers</em>');
 }; */
 
 const getAllMenus = (req, res) => {
-  res.json(foodData);
+  res.json(alldata);
 };
 
 // const postDepartureInfo = (req, res) => {
@@ -19,7 +20,7 @@ const getAllMenus = (req, res) => {
 
 menuRouter.get('/', getAllMenus);
 
-menuRouter.get('/:id', (req, res) => {
+/* menuRouter.get('/:id', (req, res) => {
   const id = Number(req.params.id);
   const menu = foodData.find(food => Number(food.id) === id);
   if (menu) {
@@ -61,6 +62,6 @@ menuRouter.delete('/:id', (req, res) => {
   const id = Number(req.params.id);
   foodData = foodData.filter(food => Number(food.id) !== id);
   res.status(202).end();
-});
+}); */
 
 module.exports = menuRouter;
