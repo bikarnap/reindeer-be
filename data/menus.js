@@ -20,7 +20,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kauden_salaatti.jpeg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kauden_salaatti.jpg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
