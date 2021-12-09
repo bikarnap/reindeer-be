@@ -10,7 +10,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lehtikaali.jpg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
@@ -20,7 +20,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kauden_salaatti.jpeg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
@@ -30,8 +30,8 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/graavisiika.jpg?raw=true',
+        foodChoices: ['Lactose free'],
       },
       {
         id: '4',
@@ -40,7 +40,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kermainnen_metsasienikeeitto.jpg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
@@ -50,8 +50,8 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lohitartar_puolukoita.jpg?raw=true',
+        foodChoices: ['Lactose free'],
       },
       {
         id: '6',
@@ -60,7 +60,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lohi_katkaraputoast.jpg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
@@ -70,8 +70,8 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/punajuurta_vuohenjuustoa.jpg?raw=true',
+        foodChoices: ['Veg'],
       },
       {
         id: '8',
@@ -80,7 +80,7 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/porotartar.jpg?raw=true',
         foodChoices: ['Gluton free'],
       },
       {
@@ -90,8 +90,8 @@ let foodData = [
         available: true,
         country: 'Finland',
         discount: 'FI',
-        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/metsäsienisalaatti.png?raw=true',
+        foodChoices: ['Veg'],
       }
     ],
   },
@@ -107,7 +107,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        foodChoices: ['Non-Veg'],
       },
       {
         id: '2',
@@ -127,7 +127,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        foodChoices: ['Non-Veg'],
       },
       {
         id: '4',
@@ -157,7 +157,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        foodChoices: ['Non-Veg'],
       },
       {
         id: '7',
@@ -177,7 +177,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Gluton free'],
+        foodChoices: ['Lacto Veg'],
       }
     ],
   },
