@@ -12,6 +12,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lehtikaali.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '2',
@@ -22,6 +23,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kauden_salaatti.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '3',
@@ -32,6 +34,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/graavisiika.jpg?raw=true',
         foodChoices: ['Lactose free'],
+        price: 10,
       },
       {
         id: '4',
@@ -42,6 +45,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kermainnen_metsasienikeeitto.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 8,
       },
       {
         id: '5',
@@ -52,6 +56,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lohitartar_puolukoita.jpg?raw=true',
         foodChoices: ['Lactose free'],
+        price: 9,
       },
       {
         id: '6',
@@ -62,6 +67,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lohi_katkaraputoast.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 11,
       },
       {
         id: '7',
@@ -72,6 +78,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/punajuurta_vuohenjuustoa.jpg?raw=true',
         foodChoices: ['Veg'],
+        price: 10,
       },
       {
         id: '8',
@@ -82,6 +89,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/porotartar.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 11,
       },
       {
         id: '9',
@@ -92,6 +100,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/metsäsienisalaatti.png?raw=true',
         foodChoices: ['Veg'],
+        price: 8,
       }
     ],
   },
