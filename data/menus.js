@@ -117,6 +117,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Non-Veg'],
+        price: 18,
       },
       {
         id: '2',
@@ -127,6 +128,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 17,
       },
       {
         id: '3',
@@ -137,6 +139,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Non-Veg'],
+        price: 21,
       },
       {
         id: '4',
@@ -147,6 +150,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 21,
       },
       {
         id: '5',
@@ -157,6 +161,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 17,
       },
       {
         id: '6',
@@ -167,6 +172,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Non-Veg'],
+        price: 18,
       },
       {
         id: '7',
@@ -177,6 +183,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 20,
       },
       {
         id: '8',
@@ -187,6 +194,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Lacto Veg'],
+        price: 16,
       }
     ],
   },
@@ -203,6 +211,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 6,
       },
       {
         id: '2',
@@ -213,6 +222,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 7,
       },
       {
         id: '3',
@@ -223,6 +233,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 7,
       },
       {
         id: '4',
@@ -233,6 +244,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 4,
       },
       {
         id: '5',
@@ -243,6 +255,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 9,
       },
       {
         id: '6',
@@ -253,6 +266,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 9,
       },
       {
         id: '7',
@@ -263,6 +277,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 8,
       },
       {
         id: '8',
@@ -273,6 +288,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 8,
       },
       {
         id: '9',
@@ -283,6 +299,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 6,
       },
       {
         id: '10',
@@ -293,6 +310,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '11',
@@ -303,6 +321,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 8,
       }
     ],
   },
@@ -319,6 +338,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 5,
       },
       {
         id: '2',
@@ -329,6 +349,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 7,
       },
       {
         id: '3',
@@ -339,6 +360,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 9,
       },
       {
         id: '4',
@@ -349,6 +371,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '5',
@@ -359,6 +382,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '6',
@@ -369,6 +393,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '7',
@@ -379,6 +404,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 6,
       },
       {
         id: '8',
@@ -389,6 +415,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 10,
       },
       {
         id: '9',
@@ -399,6 +426,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 8,
       },
       {
         id: '10',
@@ -409,6 +437,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 5,
       },
       {
         id: '11',
@@ -419,6 +448,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 5,
       }
       ,
       {
@@ -430,6 +460,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 11,
       },
       {
         id: '13',
@@ -440,6 +471,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
         foodChoices: ['Gluton free'],
+        price: 3,
       }
     ],
   },
@@ -456,6 +488,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/calendar.jpg?raw=true',
         foodChoices: [],
+        price: 6,
       },
       {
         id: '2',
@@ -466,6 +499,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/kuksa.jpg?raw=true',
         foodChoices: [],
+        price: 8,
       },
       {
         id: '3',
@@ -476,6 +510,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/train_model.jpg?raw=true',
         foodChoices: [],
+        price: 12,
       },
       {
         id: '4',
@@ -486,6 +521,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/souvenir_photo.jpg?raw=true',
         foodChoices: [],
+        price: 8,
       },
       {
         id: '5',
@@ -496,6 +532,7 @@ let foodData = [
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/reindeer_horn_keychain.jpeg?raw=true',
         foodChoices: [],
+        price: 7,
       },
     ],
   },
