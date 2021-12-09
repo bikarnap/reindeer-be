@@ -18,6 +18,11 @@ let cities = [
     'city': 'Seinäjoki',
     'country': 'Finland',
     'iso2': 'FI'
+  },
+  {
+    'city': 'Rovaniemi',
+    'country': 'Finland',
+    'iso2': 'FI'
   }
 ];
 
