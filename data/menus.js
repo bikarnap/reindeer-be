@@ -55,7 +55,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/lohitartar_puolukoita.jpg?raw=true',
-        foodChoices: ['Lactose free'],
+        foodChoices: ['Lactose Free'],
         price: 9,
       },
       {
