@@ -138,7 +138,7 @@ let foodData = [
         country: 'Finland',
         discount: 'FI',
         image: 'https://github.com/bikarnap/reindeer-be/blob/main/data/images/2.jpg?raw=true',
-        foodChoices: ['Non-Veg', 'Gluton free'],
+        foodChoices: ['Non-Veg'],
         price: 21,
       },
       {
